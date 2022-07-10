@@ -472,106 +472,10 @@ section {
 #about .about-text {
   line-height: 26px;
   margin-bottom: 15px;
+  font-size: 24px;
 }
 #about .about-text:last-child {
   margin-bottom: 0;
-}
-
-/*------------------------------
-# Roadmap Section
---------------------------------*/
-#services {
-  background: linear-gradient(rgba(6, 15, 28, 0.5), rgba(6, 15, 28, 0.5)), url("../img/wolfgang-hasselmann-c5T-niHGFjc-unsplash.jpg") fixed center center;
-  background-size: cover;
-  padding: 80px 0 60px 0;
-}
-#services .service-item {
-  margin-bottom: 20px;
-}
-#services .service-icon {
-  float: left;
-  background: #ed0000;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #ed0000;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 64px;
-  height: 64px;
-}
-#services .service-icon i {
-  color: #fff;
-  font-size: 24px;
-  line-height: 0;
-}
-#services .service-item:hover .service-icon {
-  background: #fff;
-}
-#services .service-item:hover .service-icon i {
-  color: #ed0000;
-}
-#services .service-title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-#services .service-title a {
-  color: #aaa;
-}
-#services .service-description {
-  margin-left: 100px;
-  line-height: 24px;
-}
-#services .container {
-  border: 5px solid #fff;
-  border-radius: 30px;
-  background-color: rgb(255, 255, 255, 0.25);
-  padding-top: 30px; 
-}
-
-/*-------------------------------
-# Team Section
---------------------------------*/
-#team {
-  background: #060f1c;
-  padding: 80px 0 60px 0;
-}
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-}
-#team .member .pic {
-  margin-bottom: 15px;
-  overflow: hidden;
-  height: 260px;
-}
-#team .member .pic img {
-  max-width: 100%;
-  border-radius: 50%;
-}
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-}
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-#team .member .social {
-  margin-top: 15px;
-}
-#team .member .social a {
-  color: #b3b3b3;
-}
-#team .member .social a:hover {
-  color: #ed0000;
-}
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
 }
 
 /*--------------------------------
