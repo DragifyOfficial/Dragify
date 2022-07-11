@@ -478,6 +478,18 @@ section {
   margin-bottom: 0;
 }
 
+/* Second Section
+--------------------*/
+#story p {
+  font-size: 20px;
+  line-height: 1.75;
+}
+#story h2 {
+  color: #aaa;
+  font-weight: 700;
+  font-size: 28px;
+}
+
 /*--------------------------------
 # FAQ Section
 ----------------------------------*/
